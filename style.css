@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    font-size:46px;
+    font-size:60px;
     font-weight: 600;
 }
 h2{
@@ -13,6 +13,7 @@ h2{
 .orange-color{
     color: orange;
 }
+
 .flexible_container{
     display: flex;
     margin-bottom:100px ;
@@ -32,7 +33,7 @@ h2{
     font-size: 1.4em;
 }
 
-.half-width p{
+.half-width p, footer p{
     font-weight: 400;
     color: dimgray;
     font-size: 18px;
@@ -65,17 +66,21 @@ h2{
     background-position: left ;
 }
 
+.experience_area h1{
+    margin-left: 5%;
+}
+
 .experiance_item{
     width: 40%;
     box-shadow: 0px 0px 40px gray;
     margin: 0 5% 0 5%;
-    padding: 20px 20px 60px;
-    border-radius: 10px;
+    padding: 20px 20px 100px;
+    border-radius: 0px;
 }
 
 .experiance_item h3{
     font-weight: 600;
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 .experiance_item p{
@@ -83,4 +88,21 @@ h2{
     color: dimgray;
     font-size: 18px;
 }
+
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#babay_web_dev{
+    border-left: 7px solid; 
+    border-image: linear-gradient(180deg , blue, cyan );
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
+
 
